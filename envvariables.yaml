@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: envvar-demo
+  labels:
+    purpose:demonstrate-envvars
+
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:latest
+    env: 
+    - name: COURSE
+      value: "KUBERNETES"
+    - name: TRAINER
+      value: "siva"
