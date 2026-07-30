@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: envvar-demo
   labels:
-    purpose:demonstrate-envvars
+    purpose: demonstrate-envvars
 
 spec:
   containers:
